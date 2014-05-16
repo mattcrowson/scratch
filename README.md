@@ -1,2 +1,2 @@
-scratch
-=======
+Sample Node web application.
+
