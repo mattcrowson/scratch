@@ -1,0 +1,16 @@
+{
+  "name": "express4",
+  "version": "0.0.1",
+  "description": "Sample Express 4 application using Mongo and Mongoose for persistance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.2.x",
+    "express": "4.2.x",
+    "mongoose": "3.8.x"
+  }
+}
