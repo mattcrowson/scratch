@@ -5,7 +5,12 @@ module.exports = function(app) {
 
   router.get('/', function(req, res) {
     Todo.find(function(err, result) {
-      res.send({result: result});
+      if (err) {
+        res.status(500);
+        res.send(err);
+      } else {
+        res.send({result: result});
+      }
     });
   });
 
